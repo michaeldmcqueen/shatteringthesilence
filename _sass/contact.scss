@@ -1,0 +1,90 @@
+.intro .contact-txt {
+  h1 {
+    font-family: $alt-font;
+    padding-bottom: 1rem;
+  }
+}
+.contact-form {
+  position: relative;
+  z-index: 1;
+  div {
+    margin-bottom: 2rem;
+  }
+  label {
+    display: block;
+    padding-bottom: .5rem;
+    font-size: 1rem;
+    font-family: $alt-font;
+  }
+  input, textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid $dark;
+    background: #fff;
+    -webkit-appearance: none;
+    padding: 1rem;
+    border-radius: 0;
+    color: #444;
+    font-size: 1.25rem;
+    font-family: $mono;
+  }
+
+  input.btn {
+    display: inline-block;
+    font-weight: 700;
+    border-radius: 0px;
+    padding: 17px 34px 13px;
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 1;
+    font-family: $alt-font;
+    font-size: 1.25rem;
+    position: relative;
+    cursor: pointer;
+    border: 0;
+    @media #{$medium} {
+      padding: 17px 50px 13px;
+      width: auto;
+    }
+    &:hover {
+      text-decoration: none;
+    }
+    &.primary {
+      background: $yellow;
+      color: $blue;
+    }
+  }
+  .input-btn-wrapper {
+    position: relative;
+    display: inline-block;
+    font-size: 1.25rem;
+    cursor: pointer;
+    &:before {
+      content: '';
+      position: absolute;
+      border: 2px solid $yellow;
+      width: 100%;
+      height: 100%;
+      top: 6px;
+      left: 6px;
+      z-index: -1;
+    }
+  }
+}
+
+.intro.contact {
+  position: relative;
+}
+
+#map { 
+  z-index:0;
+  position:absolute; 
+  top:0; 
+  bottom:0; 
+  width:100%; 
+  height: 100%;
+  opacity: 0.2;
+  .mapboxgl-ctrl-bottom-left, .mapboxgl-ctrl-bottom-right {
+    display: none !important;
+  }
+}

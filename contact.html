@@ -1,0 +1,49 @@
+---
+title: Get in Touch
+description: Have a project you want to discuss? Need help with an exisiting site?
+subtitle: Have a Project? Need help?
+---
+
+<section class="intro contact">
+	
+	<div class="contact-txt">
+		<h1 class="page-title">{{ page.title }}</h1>
+		<p>Have a project you want to discuss? Need help with an exisiting site? Fill out the form and we'll get back to you as soon as possible. </p>
+	</div>
+		<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
+			<input type="hidden" name="_to" value="hello@harrierdesigncompany.com" />
+			<input type="text" name="_gotcha" style="display: none;" />
+
+				<div>
+					<label for="name">Your Name</label>
+					<input type="text" name="your-name" id="your-name" required />
+				</div>
+
+				<div>
+					<label for="email">Email Address</label>
+					<input type="email" name="email" id="email" required />
+				</div>
+				<div>
+					<label for="message">Tell us about your project</label>
+					<textarea name="message" id="message" rows="6"></textarea>
+				</div>
+				<div class="input-btn-wrapper">
+				  <input type="submit" value="Send" class="btn submit-btn primary"/>
+			  </div>
+		</form>
+		<div id='map' style="height:100%;"></div>
+
+		<script>
+		mapboxgl.accessToken = 'pk.eyJ1IjoibWljaGFlbGRtY3F1ZWVubWFwIiwiYSI6ImNqMncweDFqeTAwYTIycXA4MHBta2VmNXgifQ.N5cPwbnfgvhmX5ms5YbZnA';
+			const map = new mapboxgl.Map({
+			container: 'map',
+			style: 'mapbox://styles/michaeldmcqueenmap/cjptct9rd0fr12smz9f36k1ab',
+			center: [-105.084,40.584],
+			zoom: 14.0,
+			interactive: false
+
+		});
+
+
+		</script>
+</section>

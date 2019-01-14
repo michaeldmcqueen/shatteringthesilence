@@ -1,0 +1,30 @@
+---
+title: Contact
+heading: Thanks for getting in touch.
+subtitle: We'll get back to you as soon as possible.
+---
+
+
+<section class="intro contact">
+	
+    <div class="contact-txt">
+      <h1 class="page-title">{{ page.heading }}</h1>
+      <p>{{ page.subtitle }}</p>
+    </div>
+    
+    <div id='map' style="height:100%;"></div>
+  
+    <script>
+      mapboxgl.accessToken = 'pk.eyJ1IjoibWljaGFlbGRtY3F1ZWVubWFwIiwiYSI6ImNqMncweDFqeTAwYTIycXA4MHBta2VmNXgifQ.N5cPwbnfgvhmX5ms5YbZnA';
+        const map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/michaeldmcqueenmap/cjptct9rd0fr12smz9f36k1ab',
+        center: [-105.084,40.584],
+        zoom: 14.0,
+      });
+  
+      map.scrollZoom.disable();
+  
+      </script>
+  </section>
+  

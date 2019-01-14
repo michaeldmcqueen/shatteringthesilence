@@ -1,0 +1,6 @@
+<div class="staff-member">
+	<img src="{% include relative-src.html src=include.member.image_path %}" alt="{{ include.member.name }}"/>
+	<h3 class="staff-member--name">{{ include.member.f_name }}<span>{{ include.member.l_name }}</span></h3>
+	<h5 class="staff-member--position">{{ include.member.position }}</h5>
+	{{ include.member.content }}
+</div>
