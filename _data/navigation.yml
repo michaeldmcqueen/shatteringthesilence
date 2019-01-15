@@ -1,7 +1,5 @@
 links:
-- name: Work
-  link: /portfolio/
-- name: About
-  link: /about/
-- name: Contact
+- name: Register
+  link: https://www.eventbrite.com/e/shattering-the-silence-teen-self-care-fair-tickets-54739317773
+- name: Contact Us
   link: /contact/

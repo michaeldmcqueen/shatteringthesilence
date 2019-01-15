@@ -17,6 +17,27 @@
     display: block;
   }
 }
+.img-zero {
+  @media #{$medium-down} {
+    display: none;
+	}
+}
+.shatter-logo {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: $dark;
+    @media #{$medium} {
+      text-align: center;
+      margin: 0 auto;
+      position: absolute;
+      left: 0;
+      right: 0;
+    }
+    a {
+      color: inherit;
+    }
+}
 
 .site-navigation  {
   font-family: $alt-font;
@@ -31,10 +52,10 @@
   background: $dark;
   -webkit-transition: .25s ease-in-out;
   transition: .25s ease-in-out;
-  margin-top: 4.1rem;
+  margin-top: 0;
   ul {
     font-size: 2.5rem;
-    transform: translate(0%, 50%);
+    transform: translate(0%, 100%);
     text-align: center;
     li {
       margin-bottom: 1.25rem;
@@ -101,6 +122,9 @@
   position: absolute;
   right: 1rem;
   top: 2rem;
+  @media #{$medium-down} {
+    top: 1.5rem;
+  }
 }
 
 .site-navigation--toggle,
@@ -134,7 +158,9 @@
 .site-navigation--toggle span:nth-child(4) {
   top: 16px
 }
-
+.site-navigation--toggle.active span {
+  background: $light;
+}
 .site-navigation--toggle.active span:first-child {
   top: 18px;
   width: 0;
