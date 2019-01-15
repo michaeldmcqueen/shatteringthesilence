@@ -4,20 +4,6 @@
 $pattern: "{{ site.baseurl }}/images/pattern.png";
 $screenshot-buttons: "{{ site.baseurl }}/images/screenshot-buttons.svg";
 
-@font-face {
-  font-family: 'MaisonBold';
-  src: url('/fonts/Maison-Bold.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/fonts/Maison-Bold.woff') format('woff'); /* Pretty Modern Browsers */
-  font-weight: 700;
-  font-style: none;
-}
-@font-face {
-  font-family: 'MaisonRegular';
-  src: url('/fonts/Maison-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/fonts/Maison-Regular.woff') format('woff'); /* Pretty Modern Browsers */
-  font-weight: 400;
-  font-style: none;
-}
 
 $brand-color: #FFC832;
 $light: #FFF7D4;
@@ -31,12 +17,14 @@ $light-blue: #3CC6ED;
 $html-background-color: #fff;
 $secondary-brand-color: #FFC461;
 $middle-gradient-color: mix($brand-color, $secondary-brand-color, 95%);
-$font: 'Neusa Next Std', sans-serif;
-$alt-font: 'HWT Gothic Round', sans-serif;
+$font: 'neusa-next-std', sans-serif;
+$alt-font: 'hwt-gothic-round', sans-serif;
 $mono: 'IBM Plex Mono', monospace;
 
 // Breakpoints
 $tablet: "(min-width: 450px)";
+
+
 $mid-point: "(min-width: 620px)";
 $desktop: "(min-width: 768px)";
 
