@@ -145,7 +145,11 @@
   h3 {
     color: $red;
     margin: 1rem auto 1rem;
-
+    span {
+      display: block;
+      font-size: 1.25rem;
+      margin-top: 1rem;
+    }
   }
   p {
     font-size: 1.3rem;
@@ -179,20 +183,41 @@
       height:90px;
     }
   }
-  .event-overview--sponsors {
+  .event-overview--friends {
     padding: 4rem 0 0;
     h6 {
       font-size: 1.5rem;
       text-align: center;
     }
-    .sponsor-logos {
+    .friends-logos {
       @media #{$small} {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-gap: 4rem;
+        margin-bottom: 6rem;
+
       }
-      .sponsor-logo {
-        padding-top: 4rem;
+      .friends-logo {
+        padding-top: 3em;
+        img {
+          max-width: 250px;
+          display: block;
+          margin: 0 auto;
+        }
+      }
+    }
+    .friends-lead-logos {
+      @media #{$small} {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 4rem;
+        margin-bottom: 6rem;
+
+      }
+      .friends-lead-logo {
+        padding-top: 3rem;
+        max-width: 400px;
+        margin: 0 auto;
       }
     }
   }

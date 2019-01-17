@@ -134,13 +134,14 @@ a.btn {
 	}
 	&.register {
 		&:after {
-			content: 'Pre register and get a free t-shirt!';
+			content: 'Pre register and get a free t-shirt and 2 raffle tickets!';
 			display: block;
 			position: absolute;
 			width: 100%;
 			left: 0;
+			line-height: 1.4;
 			right: 0;
-			margin: 2.25rem auto 0;
+			margin: 2rem auto 0;
 			color: $red;
 			font-size: 0.9rem;
 			font-family: $font;
