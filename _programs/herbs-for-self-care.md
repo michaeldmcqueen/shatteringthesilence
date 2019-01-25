@@ -2,7 +2,8 @@
 title: Herbs for Self Care
 presenter: Ashley Novack
 image_path: /images/programs/Ashley.jpg
-time: 2010-02-16T23:20:00+13:00
+start_time: 
+end_time:
 location: 
 ---
 

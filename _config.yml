@@ -67,7 +67,8 @@ defaults:
         title:
         presenter:
         image_path:
-        time:
+        start_time:
+        end_time:
         location:
   - scope:
       path: ""
