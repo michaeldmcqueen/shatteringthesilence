@@ -93,6 +93,14 @@ image_type:
     - square
     - portrait
 
+location: 
+    - Main Venue
+    - Art Room
+    - Gallery
+    - Kitchen
+    - Mermaid Room
+    - Dazzle Room
+
 heading:
     - light-txt
     - dark-txt
