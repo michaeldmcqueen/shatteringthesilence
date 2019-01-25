@@ -1,5 +1,5 @@
 title: Shattering the Silence
-url: "https://teal-worm.cloudvent.net"
+url: "https://shatter.imaginezerosuicide.org"
 baseurl:
 google_analytics_key: 
 google_maps_javascript_api_key:
@@ -64,17 +64,11 @@ defaults:
     values:
       layout: "program"
       _options:
-        name:
-        subtitle:
-        category:
-        external_url:
+        title:
+        presenter:
         image_path:
-        image_type: 
-        heading:
-        container_color: 
-        text_color: 
-        btn_color: 
-        border_color: 
+        time:
+        location:
   - scope:
       path: ""
       type: "staff_members"
