@@ -4,6 +4,7 @@ presenter: Ashley Novack
 image_path: /images/programs/Ashley.jpg
 start_time: 
 end_time:
+upstairs_or_downstairs:
 location: 
 ---
 

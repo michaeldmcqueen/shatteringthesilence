@@ -1,7 +1,9 @@
 ---
-title:
-presenter:
-image_path:
-time:
-location:
+title: 
+presenter: 
+image_path: 
+start_time: 
+end_time:
+upstairs_or_downstairs:
+location: 
 ---
