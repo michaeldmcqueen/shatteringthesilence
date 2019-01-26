@@ -2,8 +2,8 @@
 title: QiGong
 presenter:
 image_path: /uploads/fococafeposter.jpg
-start_time: '2:10 PM'
-end_time: '2:50 PM'
+start_time: '5:10 PM'
+end_time: '5:50 PM'
 upstairs_or_downstairs:
   - Upstairs
 location:
