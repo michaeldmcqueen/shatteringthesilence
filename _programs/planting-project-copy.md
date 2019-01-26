@@ -2,8 +2,8 @@
 title: Planting Project
 presenter:
 image_path: /uploads/planting.jpg
-start_time: '1:00 PM'
-end_time: '1:50 PM'
+start_time: '4:00 PM'
+end_time: '4:50 PM'
 upstairs_or_downstairs:
   - Upstairs
 location:
