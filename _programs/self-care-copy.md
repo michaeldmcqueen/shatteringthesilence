@@ -1,7 +1,7 @@
 ---
 title: 'Show yourSELF- Compassion: Befriend Yourself, See Others'
 presenter:
-image_path:
+image_path: /uploads/amanda.jpg
 start_time: '2:00 PM'
 end_time: '2:50 PM'
 upstairs_or_downstairs:
