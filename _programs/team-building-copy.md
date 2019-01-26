@@ -2,8 +2,8 @@
 title: Team Building - Cannibals and Missionaries Game
 presenter:
 image_path: /uploads/uchealth.png
-start_time: '4:00 PM'
-end_time: '4:50 PM'
+start_time: '5:00 PM'
+end_time: '5:50 PM'
 upstairs_or_downstairs:
   - Downstairs
 location:
