@@ -1,0 +1,21 @@
+
+.schedule{
+  .schedule--item {
+    margin: 2rem 0;
+    padding: 1.5rem; 
+    @media #{$medium} {
+      display: grid;
+      grid-template-columns: 3fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
+      .program-time {
+        grid-column: 1 / span 4;
+      }
+      h3 {
+        grid-column: 1 / span 4;
+      }
+      .learn-more {
+        grid-column: 4 / span 1;
+      }
+    }   
+  }
+}

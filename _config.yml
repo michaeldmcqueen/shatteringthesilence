@@ -96,8 +96,8 @@ image_type:
     - portrait
 
 upstairs_or_downstairs:
-    - Upstairs
-    - Downstairs
+    - "Upstairs"
+    - "Downstairs"
 
 location: 
     - Main Venue

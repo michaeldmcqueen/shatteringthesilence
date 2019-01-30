@@ -4,30 +4,7 @@ layout: default
 {% assign program = site.pages | where: "path", "program.html" | first %}
 
 <section class="project-node-intro">
-	<!-- {% if portfolio.subtitle %}
-		<h6><a href="{{ site.baseurl }}/portfolio/">{{ portfolio.heading }}</a> / {{ page.subtitle }}</h6>
-	{% endif %} -->
-	
-	<div class="project-node--intro--details" style="background-color: {{ page.container_color }}">
-		<h5 class="project--node-category" style="color: {{ page.text_color }}">{{ page.category }}</h5>
-		{% if page.name %}
-			<h1 class="project-node-title {{ page.heading }}">{{ page.name }}</h1>
-		{% endif %}
-		{% if page.external_url %}
-			<a href="{{ page.external_url }}" class="btn primary" style="background-color: {{ page.btn_color }}; border-color:{{ page.btn_color }};color:{{ page.container_color }}; ">{{ page.subtitle }}</a>
-		{% endif %}
-	</div>
-	<div class="project-node--intro--content">
-		{{ content }}
-	</div>
-</section>
+	<h1 class="project-node-title">{{ page.title }}</h1>
+	<h3>{{page.start_time}}</h3>
 
-<section class="project-node-images" style="background-color: {{ page.container_color }}">
-	<div class="container">
-	{% for image in page.project_images %}
-		<img src="{{ image.image_path }}" alt="{{ image.title }}"/>
-	{% endfor %}
-
-
-</div>
 </section>
