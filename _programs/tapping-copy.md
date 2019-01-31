@@ -1,15 +1,13 @@
 ---
-title: Tapping
+title: Story Slam
 presenter:
-image_path: /uploads/alyssa.jpg
+image_path:
 start_time: '3:10 PM'
 end_time: '3:50 PM'
 upstairs_or_downstairs:
   - Upstairs
 location:
-  - Gallery
+  - Main Venue
 ---
 
-Tapping into yourself
-
-Regulating our nervous system helps us to respond to stress and anxiety in healthier ways. Staying "regulated" can help us come back into our bodies and become more grounded with the current moment. This session will include a fun nervous system regulation exercise and will end with a guided meditation called "Containment" to help maintain control over our bodies.
+As we grow, develop and experience the world, we not only learn more and more of who we truly are, we also encounter many moments where both joy and suffering are present. &nbsp;Often we can be accustomed, programmed, conditioned or even expected to only focus on the joys and to suppress or hide the suffering. In this introduction to self-compassion, we will discuss the definitions of suffering and compassion, we will explore our common human experiences that unite us vs. divide us and hopefully find a place where we can appreciate both the joy and the suffering as useful tools and common experiences in our lives.
