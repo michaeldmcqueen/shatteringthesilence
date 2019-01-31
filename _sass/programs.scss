@@ -1,21 +1,145 @@
 
 .schedule{
+    position: relative;
+    padding-top: 1rem;
+    .buttons {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      top: -30px;
+      text-align: center;
+    }
   .schedule--item {
-    margin: 2rem 0;
-    padding: 1.5rem; 
+    padding: 2rem 0;
+    border-top: 1px dashed $red;
+    position: relative;
     @media #{$medium} {
+      padding: 2rem 0 2rem 0;
       display: grid;
-      grid-template-columns: 3fr 1fr 1fr 1fr;
-      grid-template-rows: 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
       .program-time {
-        grid-column: 1 / span 4;
+        grid-column: 1;
+        grid-row: 1 / span 2;
       }
-      h3 {
-        grid-column: 1 / span 4;
+      .program-title {
+        grid-column: 2 / span 3;
+        margin-bottom: .5rem;
       }
+
       .learn-more {
         grid-column: 4 / span 1;
+        text-align: right;
+        margin-top: 0 !important;
       }
-    }   
+    }  
+    .program-title {
+      margin-bottom: .5rem;
+      a {
+        color: inherit;
+      }
+    }
+    .learn-more {
+      margin-top: 1rem;
+      svg path {
+        fill: $orange;
+
+      }
+    } 
+    .program-time {
+      padding-bottom: .5rem;
+      font-size: 1.5rem;
+      color: $red;
+    }
+    .program-presenter, .program-location {
+      font-family: $font;
+      font-size: 1rem;
+    }
+    .program-notes {
+      font-size: 0.8rem;
+      margin-top: .5rem;
+      font-weight: 700;
+    }
   }
 }
+
+
+
+
+.program.intro .container {
+  max-width: 900px;
+}
+.program.intro .intro--text {
+  text-align: center;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  @media #{$large} {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+  } 
+}
+
+.program-node {
+  .program-details{
+
+    padding-bottom: 1rem;
+    @media #{$medium} {
+      display: grid;
+      grid-template-columns: auto 1fr;
+    }
+    h4 {
+      padding-right: 2rem;
+    }
+  }
+}
+
+
+// .one-pm, .two-pm, .three-pm, .four-pm, .five-pm, .six-pm, .twelve-pm {
+//   &:after {
+//     position: absolute;
+//     top: 0;
+//     background: $blue;
+//     padding: .5rem 1rem;
+//     color: #fff;
+//     left: -60px;
+//     font-weight: 700;
+//   }
+// }
+// .one-pm {
+//   &:after {
+//     content: '1pm';
+//   }
+// }
+// .two-pm {
+//   &:after {
+//     content: '2pm';
+//   }
+// }
+// .three-pm {
+//   &:after {
+//     content: '3pm';
+//   }
+// }
+// .four-pm {
+//   &:after {
+//     content: '4pm';
+//   }
+// }
+// .five-pm {
+//   &:after {
+//     content: '5pm';
+//   }
+// }
+// .six-pm {
+//   &:after {
+//     content: '6pm';
+//   }
+// }
+// .twelve-pm {
+//   &:after {
+//     content: '12pm';
+//   }
+// }

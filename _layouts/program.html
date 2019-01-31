@@ -3,8 +3,36 @@ layout: default
 ---
 {% assign program = site.pages | where: "path", "program.html" | first %}
 
-<section class="project-node-intro">
-	<h1 class="project-node-title">{{ page.title }}</h1>
-	<h3>{{page.start_time}}</h3>
+<section class="intro home program">
+	<div class="container">
+	<section class="intro--detail intro--text">
+		<h1 class="editable">{{ page.title}}</h1>
+		{% if page.presenter %}<h3>with {{ page.presenter }}</h3>{% endif %}
+	</section>
+</section>
 
+<section class="schedule program-node ">
+		<div class="buttons">	
+				<a href="https://www.eventbrite.com/e/shattering-the-silence-teen-self-care-fair-tickets-54739317773" class="btn primary register">Register Now!</a>	
+			</div>
+		<div class="container-content">
+			<div class="program-details">
+				<h4 class="program-time">{{ page.start_time | date: "%I:%M%P" }} to {{ page.end_time | date: "%I:%M%P" }}
+				</h4>
+				<h4 class="program-location">{% if page.upstairs_or_downstairs %}{{ page.upstairs_or_downstairs }} in the {% endif %}{% if page.location %} {{ page.location }} {% endif %}</h4>
+			</div>
+			{{ content }}
+		</div>
+</section>
+<section class="event-location">
+	<div class="container-content">
+		<div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3029.8624774804525!2d-105.07640368451798!3d40.58879087934546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDM1JzE5LjciTiAxMDXCsDA0JzI3LjIiVw!5e0!3m2!1sen!2sus!4v1547505865348" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+		<div class="address">
+			<h5>Join us!</h5>
+			<h4>At the Downtown Artery</h4>
+			<p>254 Linden St, <br>
+				Fort Collins, CO 80524</p>
+				<a href="https://www.eventbrite.com/e/shattering-the-silence-teen-self-care-fair-tickets-54739317773" class="btn primary register">Register Now!</a>
+		</div>
+	</div>
 </section>

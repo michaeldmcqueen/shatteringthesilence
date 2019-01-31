@@ -1,39 +1,34 @@
 ---
 title: Schedule
-description: This event is for youth to explore new ways to practice self care.
+description: Schedule
 ---
 
 <section class="intro home">
 	<div class="container">
 	<section class="intro--detail intro--text">
-		<h1 class="editable">This event is for youth to explore new ways to practice self care.</h1>
+		<h1 class="editable">Shattering the Silence Event Schedule.<br> 12-6pm at the Downtown Artery.</h1>
 	</section>
 	<section class="intro--detail intro--image">
 		<img src="/images/kids.png" class="kids" alt="Teenagers, Self Care"/>
 	</section>
 </section>
 
-<section class="schedule">
-		<div class="buttons">	<a href="https://www.eventbrite.com/e/shattering-the-silence-teen-self-care-fair-tickets-54739317773" class="btn primary register">Register Now!</a>	</div>
-		<div class="container-content">
-			{% assign hours = site.programs | sort:"start_time"  %}
-			{% for hour in hours %}
-			{{ hour.start_time | date: "%I" }} 
-			{% endfor %}
-
-			{% assign schedule = site.programs | sort:"start_time"  %}
-	  {% for program in schedule %}
-        <div class="schedule--item {{ program.upstairs_or_downstairs }}">
-          <div class="program-time">{{ program.start_time | date: "%I:%M %P" }} - {{ program.end_time | date: "%I:%M %P" }}</div>
-          <h3>{{ program.title }}</h3>
-		  {% if program.presenter %}<h4>with {{ program.presenter }}</h4>{% endif %}
-		  <div class="location">{% if program.upstairs_or_downstairs %}{{ program.upstairs_or_downstairs }}{% endif %}
-		  {% if program.location %}{{ program.location }} {% endif %}</div>
-		  <div class="learn-more"><a href="{{ program.path }}">Link</a></div>
-		</div>
-
+<section class="schedule ">
+		<div class="buttons">	
+				<a href="https://www.eventbrite.com/e/shattering-the-silence-teen-self-care-fair-tickets-54739317773" class="btn primary register">Register Now!</a>	
+			</div>		<div class="container-content">
+			{% assign schedule = site.programs  | sort: "start_time" %}
+	  	{% for program in schedule %}
+        <div class="schedule--item {{ program.upstairs_or_downstairs }} date-label-{{ program.start_time | date: '%I' }}">
+          <div class="program-time">{{ program.start_time | date: "%I:%M%P" }} to {{ program.end_time | date: "%I:%M%P" }}{% if program.notes %}<div class="program-notes"> {{ program.notes }}</div>{% endif %}</div>
+          <h3 class="program-title"><a href="{{ program.url }}">{{ program.title }}</a></h3>
+		  		{% if program.presenter %}<h4 class="program-presenter">with {{ program.presenter }}</h4>{% endif %}
+					<div class="program-location">
+						{% if program.upstairs_or_downstairs %}{{ program.upstairs_or_downstairs }} in the {% endif %}
+					{% if program.location %} {{ program.location }} {% endif %}</div>
+					<div class="learn-more"><a href="{{ program.url }}"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"/></svg></a></div>
+				</div>
       {% endfor %}
-
 		</div>
 </section>
 <section class="event-location">

@@ -2,7 +2,7 @@
 title: 'Creative, Daydreaming, Therapeutic Art'
 presenter:
 image_path: /uploads/marc.jpg
-start_time: '5:00 Pm'
+start_time: '5:00 PM'
 end_time: '5:50 PM'
 upstairs_or_downstairs:
   - Upstairs

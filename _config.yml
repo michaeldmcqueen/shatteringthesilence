@@ -71,6 +71,7 @@ defaults:
         end_time:
         upstairs_or_downstairs:
         location:
+        notes:
   - scope:
       path: ""
       type: "staff_members"
