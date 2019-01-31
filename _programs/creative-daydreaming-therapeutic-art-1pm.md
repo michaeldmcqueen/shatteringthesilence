@@ -1,6 +1,6 @@
 ---
 title: 'Creative, Daydreaming, Therapeutic Art'
-presenter:
+presenter: Marc Fortney
 image_path: /uploads/marc.jpg
 start_time: '1:00 Pm'
 end_time: '1:50 PM'
