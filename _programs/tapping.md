@@ -1,6 +1,6 @@
 ---
 title: Tapping
-presenter:
+presenter: Alyssa Wright
 image_path: /uploads/alyssa.jpg
 start_time: '3:10 PM'
 end_time: '3:50 PM'
