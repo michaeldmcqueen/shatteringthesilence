@@ -15,13 +15,16 @@ layout: default
 		<div class="buttons">	
 				<a href="https://www.eventbrite.com/e/shattering-the-silence-teen-self-care-fair-tickets-54739317773" class="btn primary register">Register Now!</a>	
 			</div>
-		<div class="container-content">
+		<div class="container-content clearfix program-node-grid">
 			<div class="program-details">
 				<h4 class="program-time">{{ page.start_time | date: "%I:%M%P" }} to {{ page.end_time | date: "%I:%M%P" }}
 				</h4>
 				<h4 class="program-location">{% if page.upstairs_or_downstairs %}{{ page.upstairs_or_downstairs }} in the {% endif %}{% if page.location %} {{ page.location }} {% endif %}</h4>
 			</div>
-			{{ content }}
+			<div class="editable program-content">{{ content }}</div>
+
+			{% if page.image_path %}<img class="program-image" src="https://res.cloudinary.com/duv17vpjp/image/fetch/c_scale,w_600/https://shatter.imaginezerosuicide.org{{ page.image_path }}" alt="{{ page.title}}" />{% endif %}
+			<a href="/schedule/" title="View the full Schedule">View the full Schedule <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"/></svg></a>
 		</div>
 </section>
 <section class="event-location">
