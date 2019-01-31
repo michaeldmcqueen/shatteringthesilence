@@ -1,6 +1,6 @@
 ---
 title: Processing Trauma
-presenter:
+presenter: Cheryl Mlcoch & Chris Bassett
 image_path: /uploads/andys-house-logo-png.png
 start_time: '4:00 Pm'
 end_time: '4:50 PM'
