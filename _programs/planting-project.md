@@ -1,6 +1,6 @@
 ---
 title: Planting Project
-presenter:
+presenter: Tonya Dunn
 image_path: /uploads/planting.jpg
 start_time: '1:00 PM'
 end_time: '1:50 PM'
