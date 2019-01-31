@@ -1,5 +1,5 @@
 ---
-title: Story Slam - The Day That Changed My Life 1
+title: Story Slam - The Day That Changed My Life
 presenter: Nathan Scott
 image_path: /uploads/nathan.jpg
 start_time:
