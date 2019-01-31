@@ -1,11 +1,11 @@
 ---
 title: Yoga
-presenter:
+presenter: Joe Somodi
 image_path: /uploads/yoga-2020.jpg
 start_time: '12:10 PM'
 end_time: '12:50 PM'
 upstairs_or_downstairs:
-  - "Upstairs"
+  - Upstairs
 location:
   - Gallery
 ---
