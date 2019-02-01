@@ -83,16 +83,28 @@
 }
 
 .program-node {
-  .program-details{
-
-    padding-bottom: 1rem;
+  .program-node-grid {
     @media #{$medium} {
       display: grid;
-      grid-template-columns: auto 1fr;
+      grid-template-columns: 1fr 2fr 1fr;
+      grid-gap: 2rem;
     }
-    h4 {
-      padding-right: 2rem;
+  }
+  .program-time {
+    padding-bottom: .5rem;
+    font-size: 1.5rem;
+    color: $red;
+    font-family: $font;
+  }
+  .program-details{
+    padding-bottom: 1rem;
+    text-align: center;
+    @media #{$medium} {
+      text-align: right;
     }
+  }
+  .program-image {
+    border-radius: 5px;
   }
 }
 
