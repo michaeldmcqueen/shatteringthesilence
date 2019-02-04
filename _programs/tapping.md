@@ -1,5 +1,5 @@
 ---
-title: Tapping
+title: Tapping Into Yourself
 presenter: Alyssa Wright
 image_path: /uploads/alyssa.jpg
 start_time: '3:10 PM'
