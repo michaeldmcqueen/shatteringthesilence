@@ -2,6 +2,9 @@
 .schedule{
     position: relative;
     padding-top: 1rem;
+    .container-content {
+      max-width: 980px;
+    }
     .buttons {
       position: absolute;
       left: 0;
@@ -10,14 +13,28 @@
       top: -30px;
       text-align: center;
     }
+  .schedule--item.all-day {
+      background: #f7f7f7;
+      .program-notes.all-day-event {
+        display: table;
+        background: #4260a8;
+        padding: .5rem .6rem;
+        color: #fff;
+        border-radius: 3px;
+    }
+  }
   .schedule--item {
-    padding: 2rem 0;
+    padding: 2rem 1rem;
     border-top: 1px dashed $red;
     position: relative;
     @media #{$medium} {
-      padding: 2rem 0 2rem 0;
+      padding: 2rem 1rem 2rem;
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 10em 1fr 1fr auto;
+      grid-gap: 0 1rem;
+      &.all_day-true {
+        display: none !important;
+      }
       .program-time {
         grid-column: 1;
         grid-row: 1 / span 2;
@@ -105,6 +122,8 @@
   }
   .program-image {
     border-radius: 5px;
+    margin-bottom: 1rem;
+
   }
 }
 

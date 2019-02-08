@@ -16,10 +16,32 @@ description: Schedule
 <section class="schedule ">
 		<div class="buttons">	
 				<a href="https://www.eventbrite.com/e/shattering-the-silence-teen-self-care-fair-tickets-54739317773" class="btn primary register">Register Now!</a>	
-			</div>		<div class="container-content">
+			</div>
+			<div class="container-content">
+				<div class="schedule--item all-day">
+					<div class="program-time">12:00pm to 06:00pm<div class="program-notes all-day-event">All Day Event</div></div>
+					<h3 class="program-title"><a href="/programs/caring-canines/">Therapy Dogs</a></h3>
+					<h4 class="program-presenter">Get your dog cuddles from the Caring Canines pups</h4>
+					<div class="program-location">Downstairs in the Main Entry</div>
+					<div class="learn-more"><a href="/programs/caring-canines/"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"/></svg></a></div>
+				</div>
+				<div class="schedule--item all-day">
+						<div class="program-time">12:00pm to 06:00pm<div class="program-notes all-day-event">All Day Event</div></div>
+						<h3 class="program-title"><a href="/programs/massage/">Access Bar Massage Sessions</a></h3>
+						<h4 class="program-presenter">Sessions are available in 15 minute blocks. Sign up will be available on the door.</h4>
+						<div class="program-location">Upstairs in the Dazzle Room</div>
+						<div class="learn-more"><a href="/programs/massage/"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"/></svg></a></div>
+					</div>
+					<div class="schedule--item all-day">
+							<div class="program-time">12:00pm to 06:00pm<div class="program-notes all-day-event">All Day Event</div></div>
+							<h3 class="program-title"><a href="/programs/arts-and-crafts/">Art & Craft Room</a></h3>
+							<h4 class="program-presenter">Mosaics, Love Notes, Henna Tattoos & Nail Art, Community Art Project</h4>
+							<div class="program-location">Downstairs in the Art Room</div>
+							<div class="learn-more"><a href="/programs/arts-and-crafts/"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"/></svg></a></div>
+						</div>
 			{% assign schedule = site.programs  | sort: "start_time" %}
 	  	{% for program in schedule %}
-        <div class="schedule--item {{ program.upstairs_or_downstairs }} date-label-{{ program.start_time | date: '%I' }}">
+        <div class="schedule--item {{ program.upstairs_or_downstairs }} date-label-{{ program.start_time | date: '%I' }} {% if program.all_day %}all_day-true{% endif %}">
           <div class="program-time">{{ program.start_time | date: "%I:%M%P" }} to {{ program.end_time | date: "%I:%M%P" }}{% if program.notes %}<div class="program-notes"> {{ program.notes }}</div>{% endif %}</div>
           <h3 class="program-title"><a href="{{ program.url }}">{{ program.title }}</a></h3>
 		  		{% if program.presenter %}<h4 class="program-presenter">with {{ program.presenter }}</h4>{% endif %}
