@@ -24,6 +24,8 @@ layout: default
 			<div class="editable program-content">{{ content }}</div>
 
 			{% if page.image_path %}<img class="program-image" src="https://res.cloudinary.com/duv17vpjp/image/fetch/c_scale,w_600/https://shatter.imaginezerosuicide.org{{ page.image_path }}" alt="{{ page.title}}" />{% endif %}
+			{% if page.secondary_image_path %}<img class="program-image" src="https://res.cloudinary.com/duv17vpjp/image/fetch/c_scale,w_600/https://shatter.imaginezerosuicide.org{{ page.secondary_image_path }}" alt="{{ page.title}}" />{% endif %}
+
 		</div>
 </section>
 <section class="event-location">

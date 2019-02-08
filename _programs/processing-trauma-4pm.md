@@ -2,6 +2,7 @@
 title: Processing Trauma
 presenter: Cheryl Mlcoch & Chris Bassett
 image_path: /uploads/andys-house-logo-png.png
+secondary_image_path: /uploads/LightofTheRockies.jpg
 start_time: '4:00 Pm'
 end_time: '4:50 PM'
 upstairs_or_downstairs:

@@ -112,9 +112,9 @@
 .container-content {
   max-width: 900px;
   margin: 0 auto;
-  padding: 8rem 1.5rem 4rem;
+  padding: 8rem 1.5rem 3rem;
   @media #{$medium} {
-    padding: 9rem 1.5rem 6rem;
+    padding: 9rem 1.5rem 3rem;
   }
 }
 
@@ -192,7 +192,7 @@
     .friends-logos {
       @media #{$small} {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr ;
         grid-gap: 4rem;
         margin-bottom: 6rem;
 
@@ -209,14 +209,26 @@
     .friends-lead-logos {
       @media #{$small} {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-gap: 4rem;
         margin-bottom: 6rem;
-
       }
       .friends-lead-logo {
         padding-top: 3rem;
         max-width: 400px;
+        margin: 0 auto;
+      }
+    }
+    .friends-major-logos {
+      @media #{$small} {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 4rem;
+        margin-bottom: 6rem;
+      }
+      .friends-lead-logo {
+        padding-top: 3rem;
+        max-width: 300px;
         margin: 0 auto;
       }
     }
