@@ -2,7 +2,7 @@
 title: 'Show yourSELF- Compassion: Befriend Yourself, See Others'
 presenter: Amanda Mahoney
 image_path: /uploads/amanda.jpg
-start_time: '2:00 PM'
+start_time: '2:10 PM'
 end_time: '2:50 PM'
 upstairs_or_downstairs:
   - Downstairs
