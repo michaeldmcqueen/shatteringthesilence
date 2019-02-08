@@ -2,8 +2,8 @@
 title: Healthy Eating
 presenter: Megan Anderson & Bailey Horner
 image_path: /uploads/bwb-logo.jpg
-start_time: '5:00 PM'
-end_time: '5:50 PM'
+start_time: '2:00 PM'
+end_time: '2:50 PM'
 upstairs_or_downstairs:
   - Upstairs
 location:
