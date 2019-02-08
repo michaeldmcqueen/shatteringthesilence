@@ -10,4 +10,6 @@ location:
   - Main Venue
 ---
 
-As we grow, develop and experience the world, we not only learn more and more of who we truly are, we also encounter many moments where both joy and suffering are present.  Often we can be accustomed, programmed, conditioned or even expected to only focus on the joys and to suppress or hide the suffering. In this introduction to self-compassion, we will discuss the definitions of suffering and compassion, we will explore our common human experiences that unite us vs. divide us and hopefully find a place where we can appreciate both the joy and the suffering as useful tools and common experiences in our lives.
+Navy vet, 2x Americorps member, Up With People Alum.... Student of 8 universities/colleges, and graduate of Western Illinois University with a Masters in Communication. Lived in 6 states and 4 countries including; England, the Netherlands and Belgium. I've been a movie producer, a waiter, a bouncer, a public speaking teacher, a telemarketer, a communications director, a construction worker and am currently the Community Relations Specialist for Foothills Gateway here in Fort Collins. &nbsp;I started the Fort Collins Zombie Crawl, the Fort Collins Horror Film Festival, the Pedal to the Point Bike Tour.. and Co-found the Fort Collins Comic Con.
+
+I love to tell stories.. but more importantly, I love to hear stories... and host this story slam featuring stories of the day that changed my life.. for the better... including my own story! &nbsp;These are true stories told without notes with a 5-7 minute maximum.
