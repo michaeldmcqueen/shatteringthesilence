@@ -3,7 +3,7 @@ title: QiGong
 presenter: Brian DiCiacco
 image_path: /uploads/fococafeposter.jpg
 start_time: '2:10 PM'
-end_time: '2:50 PM'
+end_time: '2:45 PM'
 upstairs_or_downstairs:
   - Upstairs
 location:

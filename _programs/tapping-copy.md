@@ -3,7 +3,7 @@ title: Story Slam - The Day That Changed My Life
 presenter: Nathan Scott
 image_path: /uploads/nathan-1.jpg
 start_time: '3:10 PM'
-end_time: '3:50 PM'
+end_time: '3:45 PM'
 upstairs_or_downstairs:
   - Downstairs
 location:

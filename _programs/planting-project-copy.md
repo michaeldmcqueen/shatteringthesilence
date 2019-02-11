@@ -3,7 +3,7 @@ title: Planting Project
 presenter: Tonya Dunn
 image_path: /uploads/planting.jpg
 start_time: '4:00 PM'
-end_time: '4:50 PM'
+end_time: '4:45 PM'
 upstairs_or_downstairs:
   - Upstairs
 location:

@@ -3,7 +3,7 @@ title: Medieval Longsword
 presenter: Daniel Eastman
 image_path: /uploads/medieval-longsword.png
 start_time: '1:10 PM'
-end_time: '1:50 PM'
+end_time: '1:45 PM'
 upstairs_or_downstairs:
 location:
 ---

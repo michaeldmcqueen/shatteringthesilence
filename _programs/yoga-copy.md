@@ -3,7 +3,7 @@ title: Yoga
 presenter: Joe Somodi
 image_path: /uploads/yoga-2020.jpg
 start_time: '3:00 PM'
-end_time: '3:50 PM'
+end_time: '3:45 PM'
 upstairs_or_downstairs:
   - Upstairs
 location:

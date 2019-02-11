@@ -4,7 +4,7 @@ presenter: Cheryl Mlcoch & Chris Bassett
 image_path: /uploads/andys-house-logo-png.png
 secondary_image_path: /uploads/LightofTheRockies.jpg
 start_time: '2:00 Pm'
-end_time: '2:50 PM'
+end_time: '2:45 PM'
 upstairs_or_downstairs:
   - Upstairs
 location:

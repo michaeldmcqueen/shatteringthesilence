@@ -3,7 +3,7 @@ title: Herbs for Self Care
 presenter: Ashley Novack
 image_path: /images/programs/Ashley.jpg
 start_time: '3:00 PM'
-end_time: '3:50 PM'
+end_time: '3:45 PM'
 upstairs_or_downstairs:
   - Upstairs
 location:

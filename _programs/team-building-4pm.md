@@ -3,7 +3,7 @@ title: Team Building - Cannibals and Missionaries Game
 presenter: Greg Tillman
 image_path: /uploads/uchealth.png
 start_time: '4:10 PM'
-end_time: '4:50 PM'
+end_time: '4:45 PM'
 upstairs_or_downstairs:
   - Downstairs
 location:
