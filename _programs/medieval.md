@@ -5,7 +5,9 @@ image_path: /uploads/medieval-longsword.png
 start_time: '4:10 PM'
 end_time: '4:45 PM'
 upstairs_or_downstairs:
+  - Upstairs
 location:
+  - Gallery
 ---
 
 Medieval Longsword

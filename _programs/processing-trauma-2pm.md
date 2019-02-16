@@ -8,7 +8,7 @@ end_time: '2:45 PM'
 upstairs_or_downstairs:
   - Upstairs
 location:
-  - Mermaid Room
+  - Studio One
 ---
 
 This session will include the basics of identifying trauma, self-care exercises, mindfulness and breathing techniques to decrease the intensity after a trigger event or flashback; We’ll work on calming the mind and body through music, aromatherapy, and more. &nbsp;This session is led by 2 licensed counselors: Cheryl Mlcoch, LPC with Andy’s House & Kidstuff, & Chris Bassett, LMFT with Light of the Rockies.

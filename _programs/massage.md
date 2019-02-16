@@ -8,7 +8,7 @@ end_time: '6:00 PM'
 upstairs_or_downstairs:
   - Upstairs
 location:
-  - Dazzle Room
+  - Studio Five
 notes: 10-15 min sessions
 all_day: true
 ---
